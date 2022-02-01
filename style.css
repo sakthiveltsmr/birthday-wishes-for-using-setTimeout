@@ -67,3 +67,52 @@ span {
 .icc {
   color: yellow;
 }
+@media only screen and (max-width: 280px) {
+  #container {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    /* width: 300px;
+    height: 600px; */
+    /* border: 2px solid Green; */
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/22/972/876/candle-colorful-cream-happy-birthday-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .count:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    border: 2px solid black;
+    /* -webkit-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.75); */
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  p {
+    font-size: 30px;
+    color: rgb(17, 8, 104);
+  }
+  span {
+    font-size: 30px;
+    color: red;
+  }
+  .icon {
+    color: rgb(238, 5, 160);
+  }
+  .icc {
+    color: yellow;
+  }
+}
